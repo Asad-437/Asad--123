@@ -1,0 +1,260 @@
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-image: url(https://img.freepik.com/free-photo/chicken-wrap-wooden-table_144627-33300.jpg?w=2000);
+            background-color: rgba(0, 0, 0, 0.4);
+            background-blend-mode: darken;
+        }
+
+        .container {
+            display: flex;
+        }
+
+        section {
+            background-color: 2px solid burlywood;
+        }
+
+        .head {
+            box-shadow: 0px 0px 70px;
+            border-radius: 50px;
+            height: 500px;
+            margin-top: 70px;
+        }
+
+        .main-image {
+            width: 100%;
+            height: 100%;
+        }
+
+        .logo {
+            /* display: flex */
+        }
+
+
+
+        #box1 {
+            background: url('https://t4.ftcdn.net/jpg/00/68/66/33/360_F_68663352_kqZxsAQ7xLNlMsIsxQka4UB8lM3RNp9y.jpg')no-repeat center center/cover;
+            border: 2px solid rgb(21, 37, 35);
+            padding: 35px 23px;
+            box-sizing: 55px;
+            margin: 40px 50px;
+
+            text-align: center;
+            border-radius: 50px;
+            width: 300px;
+            height: 400px;
+        }
+
+        h1 {
+            text-align: center;
+            font-family: 'Segoe UI Black';
+            font-size: 72px;
+            text-shadow: 8px 8px black;
+            color: white;
+        }
+
+        img {
+            border-radius: 13px;
+        }
+
+        .logo-image {
+            margin: 20px;
+        }
+
+        h2 {
+            background-color: 2px solid burlywood;
+            color: white;
+            text-align: center;
+            font-size: 48px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin-top: 100px;
+        }
+
+        h3 {
+            background-color: burlywood;
+        }
+
+        #box2 {
+            background: url('https://t4.ftcdn.net/jpg/00/68/66/33/360_F_68663352_kqZxsAQ7xLNlMsIsxQka4UB8lM3RNp9y.jpg')no-repeat center center/cover;
+            border: 2px solid rgb(21, 37, 35);
+            padding: 23px 23px;
+            box-sizing: 55px;
+            margin: 23px 12px;
+
+            text-align: center;
+            border-radius: 50px;
+            width: 350px;
+            height: 380px;
+            text-align: center;
+        }
+
+        #box3 {
+            background: url('https://t4.ftcdn.net/jpg/00/68/66/33/360_F_68663352_kqZxsAQ7xLNlMsIsxQka4UB8lM3RNp9y.jpg')no-repeat center center/cover;
+            border: 2px solid rgb(21, 37, 35);
+            padding: 23px 23px;
+            box-sizing: 55px;
+            margin: 23px 12px;
+
+            text-align: center;
+            border-radius: 50px;
+            width: 350px;
+            height: 350px;
+        }
+
+        .container3 {
+            display: flex;
+        }
+
+        #box12 {
+            background: url('https://t4.ftcdn.net/jpg/00/68/66/33/360_F_68663352_kqZxsAQ7xLNlMsIsxQka4UB8lM3RNp9y.jpg')no-repeat center center/cover;
+            border: 2px solid rgb(21, 37, 35);
+            padding: 23px 23px;
+            box-sizing: 55px;
+            margin: 23px 12px;
+
+            text-align: center;
+            border-radius: 50px;
+            width: 350px;
+            height: 350px;
+        }
+
+        #box4 {
+            border: 2px solid rgb(21, 37, 35);
+            background: url('https://t4.ftcdn.net/jpg/00/68/66/33/360_F_68663352_kqZxsAQ7xLNlMsIsxQka4UB8lM3RNp9y.jpg')no-repeat center center/cover;
+            padding: 23px 23px;
+            box-sizing: 55px;
+            margin: 23px 12px;
+
+            text-align: center;
+            border-radius: 50px;
+            width: 350px;
+            height: 350px;
+        }
+
+        #box5 {
+            /* background: url('https://tb-static.uber.com/prod/image-proc/processed_images/5d805c4ad1b0ad3b957de671fbbcd22c/97ef7458dde62fa918635bc21265d9f5.jpeg') no-repeat center center/cover; */
+            background: url('https://t4.ftcdn.net/jpg/00/68/66/33/360_F_68663352_kqZxsAQ7xLNlMsIsxQka4UB8lM3RNp9y.jpg')no-repeat center center/cover;
+            border: 2px solid rgb(21, 37, 35);
+            padding: 23px 23px;
+            box-sizing: 55px;
+            margin: 23px 12px;
+            text-align: center;
+            /* height:fit-content; */
+            border-radius: 50px;
+            width: 350px;
+            height: 350px;
+        }
+
+        #box7 {
+            /* background: url('https://tb-static.uber.com/prod/image-proc/processed_images/5d805c4ad1b0ad3b957de671fbbcd22c/97ef7458dde62fa918635bc21265d9f5.jpeg') no-repeat center center/cover; */
+            background: url('https://t4.ftcdn.net/jpg/00/68/66/33/360_F_68663352_kqZxsAQ7xLNlMsIsxQka4UB8lM3RNp9y.jpg')no-repeat center center/cover;
+            border: 2px solid rgb(21, 37, 35);
+            padding: 23px 23px;
+            box-sizing: 55px;
+            margin: 23px 12px;
+            text-align: center;
+            /* height:fit-content; */
+            border-radius: 50px;
+            width: 300px;
+            height: 400px;
+
+        }
+
+        #box8 {
+            /* background: url('https://tb-static.uber.com/prod/image-proc/processed_images/5d805c4ad1b0ad3b957de671fbbcd22c/97ef7458dde62fa918635bc21265d9f5.jpeg') no-repeat center center/cover; */
+            background: url('https://t4.ftcdn.net/jpg/00/68/66/33/360_F_68663352_kqZxsAQ7xLNlMsIsxQka4UB8lM3RNp9y.jpg')no-repeat center center/cover;
+            border: 2px solid rgb(21, 37, 35);
+            padding: 23px 23px;
+            box-sizing: 55px;
+            margin: 23px 12px;
+            text-align: center;
+            /* height:fit-content; */
+            border-radius: 50px;
+            width: 360px;
+            height: 480px;
+        }
+
+        .container5 {
+            display: flex;
+        }
+
+        #box11 {
+            /* background: url('https://tb-static.uber.com/prod/image-proc/processed_images/5d805c4ad1b0ad3b957de671fbbcd22c/97ef7458dde62fa918635bc21265d9f5.jpeg') no-repeat center center/cover; */
+            background: url('https://t4.ftcdn.net/jpg/00/68/66/33/360_F_68663352_kqZxsAQ7xLNlMsIsxQka4UB8lM3RNp9y.jpg')no-repeat center center/cover;
+            border: 2px solid rgb(21, 37, 35);
+            padding: 23px 23px;
+            box-sizing: 55px;
+            margin: 23px 12px;
+            text-align: center;
+            /* height:fit-content; */
+            border-radius: 50px;
+            width: 350px;
+            height: 350px;
+
+        }
+
+        #box6 {
+            /* background: url('https://tb-static.uber.com/prod/image-proc/processed_images/5d805c4ad1b0ad3b957de671fbbcd22c/97ef7458dde62fa918635bc21265d9f5.jpeg') no-repeat center center/cover; */
+            background: url('https://t4.ftcdn.net/jpg/00/68/66/33/360_F_68663352_kqZxsAQ7xLNlMsIsxQka4UB8lM3RNp9y.jpg')no-repeat center center/cover;
+            border: 2px solid rgb(21, 37, 35);
+            padding: 23px 23px;
+            box-sizing: 55px;
+            margin: 23px 12px;
+            text-align: center;
+            /* height:fit-content; */
+            border-radius: 50px;
+            width: 350px;
+            height: 350px;
+        }
+
+        #box10 {
+            /* background: url('https://tb-static.uber.com/prod/image-proc/processed_images/5d805c4ad1b0ad3b957de671fbbcd22c/97ef7458dde62fa918635bc21265d9f5.jpeg') no-repeat center center/cover; */
+            background: url('https://t4.ftcdn.net/jpg/00/68/66/33/360_F_68663352_kqZxsAQ7xLNlMsIsxQka4UB8lM3RNp9y.jpg')no-repeat center center/cover;
+            border: 2px solid rgb(21, 37, 35);
+            padding: 23px 23px;
+            box-sizing: 55px;
+            margin: 23px 12px;
+            text-align: center;
+            /* height:fit-content; */
+            border-radius: 50px;
+            width: 350px;
+            height: 350px;
+        }
+
+        .box {
+            background: url(https://t4.ftcdn.net/jpg/00/68/66/33/360_F_68663352_kqZxsAQ7xLNlMsIsxQka4UB8lM3RNp9y.jpg)no-repeat center center/cover;
+            background-color: rgba(0, 0, 0, 0.2);
+            background-blend-mode: darken;
+            box-shadow: 12px 13px 20px black;
+        }
+
+        .cont {
+            display: block;
+            background: url('https://img.freepik.com/free-photo/herbs-vegetables-with-chopping-board_1147-371.jpg') no-repeat center center/cover;
+            text-align: center;
+        }
+
+        .address {
+            /* border:2px solid black; */
+            padding: 23px 23px;
+            /* box-sizing:55px; */
+            /* margin:23px 12px; */
+
+            /* text-align: center;  */
+            /* height:fit-content; */
+            border-radius: 50px;
+            width: 300x;
+            height: 190px;
+        }
+
+        thead {
+            text-align: center;
+
+        }
+
+        .container2 {
+            display: flex;
+        }
