@@ -1,427 +1,332 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
-    <title>Pizza Di Hatti - Pizza Restourant</title>
+    <title>Houses</title>
 </head>
+<style>
+  
+    *{
+        padding:0;
+        margin:0;
+    
+    }
+    .navbar{
+        display:flex;
+        /* background:black; */
+        height:100px;
+        }    
+     .nav-list{
+            width:50px;
+            display:flex;
+            /* background:black; */
+            padding:33px ;
+            align-items: center;
+            margin:10px;
+            
+        }
+    .nav-list li{
+        List-style:none;
+        display:center;
+    
+        
+}
+    .nav-list li a{
+        text-align: center;
+        text-decoration:none;
+        justify-content:center;
+        padding: 40px;
+        margin:50px;
+        font-size: 32px;
+        color:black;
 
+}
+   .rightnav{
+      /* background:2px solid red; */
+      
+       display:inline;  
+      margin-left:1000px;
+   }
+    .logo{
+    width:20px;
+    display:flex;
+    margin:15px;
+    padding:23px;
+    justify-content:center;
+    align-items:center;
+   }
+    .logo img{
+    width:110px;
+    border:3px solid rgb(82, 87, 82);
+    border-radius:80px;
+    }
+#search{
+    padding:50px;
+    font-size: large;
+    border:2px solid wheat;
+    border-radius: 150px;
+}
+   .navbar-list li a:hover{
+    /* color:grey; */
+   }
+.background{
+    background:	hsl(205, 14%, 50%) url('logo/house.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+  .container{ 
+    
+    display:flex; 
+    background: url('https://hips.hearstapps.com/hmg-prod/images/2-1673453547.jpg?crop=1xw:0.8422876949740035xh;center,top&resize=1200:*') no-repeat center center/cover;
+    height:600px; 
+    text-align: center;
+     text-decoration:double;
+     padding:80px;
+     margin:30px;
+ } 
+#mode{
+    padding:30px;
+    margin:5px;
+    /* border:2px solid grey; */
+    /* background: 2px solid grey;  */
+}
+#mode img{
+    /* background: 2px solid grey;       */
+    height: 500px;
+    width:600px;
+    background-blend-mode: darken; 
+    /* border:2px solid grey; */
+}
+
+.background1{
+/* justify-content: center; */
+    text-align: center; 
+color: #bd1818;
+text-shadow: 2px 2px #3c9688;
+
+    margin:180px;
+    padding:40px  ; 
+    font-size: 48px;
+    text-decoration:double;
+    font-family: 'fantasy';
+}
+ h2{
+    text-align: center;
+ }
+ .container2{
+    padding:23px;
+    margin:30px;
+    display:flex;
+    background:grey;
+    width:1350px;
+    height:300px;
+    border-radius: 50px;
+ }
+ .buy2{
+    padding-inline-end: 23px;
+    padding: 30px 30px;
+    margin:30px;
+    
+    /* border:3px solid rgb(66, 165, 66); */
+    background-color:	hsl(205, 14%, 50%);
+    font-family: 'Times New Roman', Times, serif;
+    /* margin: 23px; */
+    text-align:center;
+    border-radius: 50px;
+
+ }
+ .buy1{
+    font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  padding: 33px;
+  border-radius: 50px;
+    background-position:right;
+    width:450px;
+    color:rgb(214, 233, 227);
+    text-align:center;
+    height:300px;
+    font-size: large;
+    border-radius: 65px;
+    border-radius:2px solid rgb(82, 87, 82);
+
+ }
+
+ .container3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding:80px;
+    margin:30px;
+    height:500px;
+    background: url('https://www.mcdonaldjoneshomes.com.au/sites/default/files/styles/blog_hero_banner/public/Pros-and-Cons-of-Building-a-Two-Storey-Home-Australia.jpg?itok=JFGuIT57"')no-repeat center center/cover;
+    text-shadow: 30px;
+   text-shadow: 2px 2px #3c9688;
+    color:#69837f;
+ }
+
+ .container4{
+    padding:23px;
+    margin:50px;
+    display:flex;
+    background:grey;
+    width:1350px;
+    height:300px;
+    border-radius: 50px;
+
+ }
+ .write{
+    color:rgb(212, 180, 97);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-inline-end: 23px;
+    padding: 30px 30px;
+    margin:30px;
+    font-size: 32px;
+    /* border:3px solid rgb(66, 165, 66); */
+    background-color:	hsl(205, 14%, 50%);
+    /* font-family: 'Times New Roman', Times, serif; */
+    /* margin: 23px; */
+    text-align:center;
+    border-radius: 50px;  
+
+ }
+ .footer{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin:80px;
+     padding:30px; 
+    color:aliceblue;
+    text-align:center;
+
+ } 
+.container5{
+    text-align:center;
+    display:flex;
+    background: rgb(102, 146, 148);
+    width:150;
+    font-size:larger;
+    font-family: 'Times New Roman', Times, serif;
+}
+.builder{
+
+     color:#bd2727;
+     text-align: center; 
+    font-size: 48px;
+}  
+h1{
+    text-align: center;
+}
+.pic1{
+    font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  padding: 33px;
+  border-radius: 50px;
+    background-position:right;
+    width:450px;
+    color:rgb(214, 233, 227);
+    text-align:center;
+    height:300px;
+    font-size: large;
+    border-radius: 65px;
+    border-radius:2px solid rgb(82, 87, 82);
+
+    
+} 
+  @media  (max-width: 920px ){
+        .navbar{
+            width:1500px;
+        }
+        .container{
+            width:1400px;
+        }
+        .container3{
+            width:1400px;
+        }
+
+        .container5{
+            width:1400px;
+        }
+
+       h1{
+        text-align: center;
+        justify-content: center;
+       }
+
+
+    
+ }
+</style>
 <body>
-    <div class="logo">
-        <div class="logo-image">
-            <img src="logo.png" width="60px" height="60px">
-        </div>
-        <div class="logo-heading">
-            <h1><i>PIZZAY DI HATTI</i></h1>
-        </div>
-    </div>
-    <header class="head">
-        <img src="7.jpg" class="main-image">
-    </header>
-    <section>
-        <h2> Menus</h2>
-    </section>
-
+    <nav class="navbar background">
+        <ul class="nav-list">
+            <div class="logo"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZT57tLXoQ9bNQtgvOenlTnePMKHWFUW6Yog&usqp=CAU" alt="logo"></div>
+            <li ><a href="#Home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Contact">Contact </a></li>
+        </ul>
+        <div class="rightnav">
+            <input type="search"  class="text"  id="text">
+            <button class="btn btn-sum">Search</button>
+</div>
+    </nav>
     <div class="container">
-        <div class="box" id="box1">
-            <img src="pizza1.jpeg" width="300px" height="200px">
-            <h3>PIZZA PRICES</h3>
-            <table>
-                <thead>
-                    <tr>
-                        <th><b>Variety<b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
-                        </th>
-                        <th><b>S</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br></th>
-                        <th><B>M</B> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br></th>
-                        <th><B>L</B> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br></th>
-                        <th><B>XT</B></th> &nbsp;&nbsp;<br></th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Chicken Tikka</td>
-                        <td>250</td>
-                        <td>550</td>
-                        <td>940</td>
-                        <td>1150</td>
-                    </tr>
-                <tbody>
-                    <tr>
-                        <td>Chicken Fajita</td>
-                        <td>250</td>
-                        <td>550</td>
-                        <td>940</td>
-                        <td>1150</td>
-                    </tr>
-                </tbody>
-                <tbody>
-                    <tr>
-                        <td>Chicken Sicilian</td>
-                        <td>250</td>
-                        <td>550</td>
-                        <td>940</td>
-                        <td>1150</td>
-                    </tr>
-                </tbody>
-                <tbody>
-                    <tr>
-                        <td>Chicken Lover</td>
-                        <td>250</td>
-                        <td>550</td>
-                        <td>940</td>
-                        <td>1150</td>
-                    </tr>
-                </tbody>
-                <tbody>
-                    <tr>
-                        <td>Chicken Supreme</td>
-                        <td>250</td>
-                        <td>550</td>
-                        <td>940</td>
-                        <td>1150</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-        <div class="box" id="box7">
-            <img src="sp.jpeg" width="300px" height="200px">
-            <h3>SPECIAL PIZZA'S</h3>
-            <table>
-                <thead>
-                    <tr>
-                        <th><b>Variety<b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
-                        </th>
-                        <th><b>S</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br></th>
-                        <th><B>M</B> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br></th>
-                        <th><B>L</B> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br></th>
-                        <th><B>XT</B></th> &nbsp;&nbsp;<br></th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Our Special</td>
-                        <td>300</td>
-                        <td>580</td>
-                        <td>990</td>
-                        <td>1200</td>
-                    </tr>
-                <tbody>
-                    <tr>
-                        <td>Bone Fire</td>
-                        <td></td>
-                        <td>680</td>
-                        <td>1090</td>
-                        <td>1300</td>
-                    </tr>
-                </tbody>
-                <tbody>
-                    <tr>
-                        <td>Malai Boti</td>
-                        <td></td>
-                        <td>730</td>
-                        <td>1090</td>
-                        <td>1300</td>
-                    </tr>
-                </tbody>
-                <tbody>
-                    <tr>
-                        <td>Beharai Kabab</td>
-                        <td></td>
-                        <td>780</td>
-                        <td>1140</td>
-                        <td>1350</td>
-                    </tr>
-                </tbody>
-                <tbody>
-                    <tr>
-                        <td>Kabab Stuffer</td>
-                        <td></td>
-                        <td>830</td>
-                        <td>1270</td>
-                        <td>1480</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-        <div class="box" id="box8">
-            <img src="ex.jpeg" width="300px" height="200">
-            <h3>EXTRA TOPPING</h3>
-            <table>
-                <thead>
-                    <tr>
-                        <th>
-                            <b>Variety<b>
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    <br>
-                        </th>
-                        <th>
-                            <b>S</b>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            <br>
-                        </th>
-                        <th><B>M</B> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br></th>
-                        <th><B>L</B> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br></th>
-                        <th><B>XT</B></th> &nbsp;&nbsp;<br></th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Chicken</td>
-                        <td>80</td>
-                        <td>120</td>
-                        <td>150</td>
-                        <td>180</td>
-                    </tr>
-                </tbody>
-                <tbody>
-                    <tr>
-                        <td>Cheese</td>
-                        <td>100</td>
-                        <td>150</td>
-                        <td>170</td>
-                        <td>220</td>
-                    </tr>
-                </tbody>
-            </table>
-            <h3>SAUCES</h3>
-            <table>
-                <thead>
-                    <tr>
-                        <th><b>Variety<b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
-                        </th>
-                        <th><B>Price</B></th> &nbsp;&nbsp;<br></th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Dip Sauce</td>
-                        <td>50</td>
-                    </tr>
-                </tbody>
-                <tbody>
-                    <tr>
-                        <td>Mayo Mustard</td>
-                        <td>50</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
+    <div class="background1" id="mode">
+ 
+        
+    <h2 > SHAHID </h2>
+    <h2> ESTSTE </h2>
+    <h2 >  LINKERS</h2>
+ </div>
     </div>
-    <div class="container2">
-        <div class="box" id="box2">
-            <img src="sh.jpeg" width="300" height="200px">
-            <h3>SHAWARMA</h3>
-            <table>
-                <thead>
-                    <tr>
-                        <th><b>Variety<b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
-                        </th>
-                        <th><b>PRICE</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br></th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Chicken Shawarma</td>
-                        <td> 140</td>
-                    </tr>
-                </tbody>
-                <tbody>
-                    <tr>
-                        <td>Chicken Cheese Shwarma</td>
-                        <td> 170</td>
-                    </tr>
-                </tbody>
-                <tbody>
-                    <tr>
-                        <td>Pizza Shawarma</td>
-                        <td> 190</td>
-                    </tr>
-                </tbody>
-                <tbody>
-                    <tr>
-                        <td>Chicken paratha Roll</td>
-                        <td> 170</td>
-                    </tr>
-                </tbody>
-                <tbody>
-                    <tr>
-                        <td>Pizza Paratha</td>
-                        <td> 220</td>
-                    </tr>
-                </tbody>
-            </table>
+         <div class="container2">
+            <div class="buy1 " id="buy">
+                <img src="https://pinoyhousedesigns.com/wp-content/uploads/2017/08/FEATURED-IMAGE.jpg" alt="" width="350px" height="250px" style="border-radius: 50px;">
+</div>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           <div class="buy2" id="buy">
+              <h2>SHAHID ESTATE LINKERS</h2>
+              <br>
+              <br>
+              <P> A life estate is a property—usually a residence—that an individual owns and may use for the duration of their lifetime. Called the life tenant, this person shares ownership of the property with a second person. The second person is called the remainderman and automat</P>
+           </div>
+ </div>
+           <div class="container3">
+            <div class="builder" id="builder1">
+                <P style="font-size: larger;">SHAHID<br>ESTATE<br>BUILDERS</P>
+ </div>
+           </div>
+           <div class="container4">
+            <div class="write" id="address"> 
+                <p1 >SHAHID ESTATE LINKERS & DEVELOPERS <br>PROVIDE MANY HELP FOR BUY AND SELL PROPERTY.<br>
+                IF YOU WANT TO SELL AND BUY HOUSES PLZ CONTACT .</p1>
         </div>
-        <div class="box" id="box3">
-            <img src="pasta.jpeg" width="300" height="200px">
-            <h3>PASTA'S</h3>
-            <table>
-                <thead>
-                    <tr>
-                        <th><b>Variety<b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
-                        </th>
-                        <th><b>PRICE</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br></th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Creamy Pasta</td>
-                        <td> 170</td>
-                    </tr>
-                </tbody>
-                <tbody>
-                    <tr>
-                        <td>Flamming Pasta</td>
-                        <td> 170</td>
-                    </tr>
-                </tbody>
-                <tbody>
-                    <tr>
-                        <td>Crunchy Pasta</td>
-                        <td> 170</td>
-                    </tr>
-                </tbody>
-            </table>
+        <div class="pic1" id="address">
+            <img src="https://cdn.mos.cms.futurecdn.net/nAdBePBSLxWah5PjqDViqA-650-80.jpg.webp" width="350px" height="250px" style="border-radius: 50px;">
+        </div> 
+    </div> 
 
-        </div>
-        <div class="box" id="box4">
-            <img src="rolls.jpeg" width="300" height="200px">
-            <h3>Rolls</h3>
-            <table>
-                <thead>
-                    <tr>
-                        <th><b>Variety<b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
-                        </th>
-                        <th><b>PRICE</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br></th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Spin Rolls</td>
-                        <td> 300</td>
-                    </tr>
-                </tbody>
-                <tbody>
-                    <tr>
-                        <td>Behari Rolls</td>
-                        <td> 320</td>
-                    </tr>
-                </tbody>
-                <tbody>
-                    <tr>
-                        <td>Crunchy Rolls</td>
-                        <td>350</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-    </div>
-    <div class="container3">
-        <div class="box" id="box5">
-            <img src="wings.jpeg" width="300" height="200px">
-            <h3>Chicken Wings</h3>
-            <table>
-                <thead>
-                    <tr>
-                        <th>
-                            <b>Variety<b>
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
-                        </th>
-                        <th>
-                            <b>PRICE</b>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            <br>
-                        </th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Oven Baked Wings (10pcs)</td>
-                        <td> 350</td>
-                    </tr>
-                </tbody>
-                <tbody>
-                    <tr>
-                        <td>Bar.B.Q Wings(10pcs)</td>
-                        <td> 380</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
+    <h1> CONTACT US</h1>
+    
+<div class="container5" >
 
-        <div class="box" id="box6">
-            <h3> Deal1</h3>
-            <p>2 Small Pizza</p>
-            <p>2 Shawarma</p>
-            <p>1 Ltr.Drink</p>
-            <p>RS. 850</p>
-            <h3> Deal2</h3>
-            <p>1 Large Pizza</p>
-            <p>2 Medium Pizza</p>
-            <p>1.5 Ltr.Drink</p>
-            <p>RS. 1550</p>
-
+      
+        <div class="footer" id="footer1">
+           
+            <p>MAHAR SHAHID ALI </p>
+            <p>0300-7667902</p>
+            <BR>
+  <p>MILLAT ROAD GREEN TOWN DOUBLE ROAD FAISALABAD
         </div>
-        <div class="box" id="box10">
-            <h3> Deal4</h3>
-            <p>2 CH.Shawarma</p>
-            <p>2 Paratha Roll</p>
-            <p>1 Ltr.Drink</p>
-            <p>RS. 690</p>
-            <h3> Deal5</h3>
-            <p>2 Pcs Wings</p>
-            <p>2 CH Shawarma</p>
-            <p>500 ml Drink</p>
-            <p>RS. 500</p>
+    <div class="footer" id="footer2">
+            
+            <p>MAHAR SAJID ALI</p>
+            <p> 0300-6675515</p>
+       
+          
         </div>
-    </div>
-    <div class="container5">
-        <div class="box " id="box11">
-            <h3> Deal6</h3>
-            <p>2 Pizza Shawarma</p>
-            <p>1 Paratha Roll</p>
-            <p>5pcs Wings</p>
-            <p>RS. 800</p>
-            <h3> Deal3</h3>
-            <p>1 Large Pizza</p>
-            <p>1 Large Our Spl. Pizza</p>
-            <p>1.5 Ltr.Drink</p>
-            <p>RS. 1990</p>
-        </div>
-        <div class="box" id="box12">
-            <h3>Mega Deal</h3>
-            <p>2 Large Pizza, 2 Small Pizza,10pcs Wings</p>
-            <p>1 Pasta Full,1 Spin Roll</p>
-            <p>& 2 Drink 1.5 Ltr</p>
-            <p>RS. 3550</p>
-        </div>
-    </div>
-    <footer>
-        <div class="cont">
-            <div class="adress" id="address1">
-                <h3>BRANCH-1</h3>
-                <P>ST.#2,Nisar Colony</P>
-                <p>Mian Bzar,Faisalabad</p>
-                <p>0336-6393043,0302-3426176</p>
-            </div>
-            <!-- <div class="address" id="address2"> -->
-            <div>
-                <h3>BRANCH-2</h3>
-                <P>66-Foota Bazar,Near Madrisa Jamia Habiba</P>
-                <p>Mansoorabad,Fsd.0335-7100120</p>
-                <p>0322-2555800,0303-0111944</p>
-            </div>
-            <!-- <div class="address" id="address3"> -->
-            <div>
-                <h3>LAHORE BRANCH</h3>
-                <P>Goal Chowk Mian Bazar Ravi Road,Lahore.</P>
-                <p>0321-9400670,0321-9400690</p>
-            </div>
-        </div>
-        <!-- </div> -->
-    </footer>
+      </div>
 </body>
-
 </html>
